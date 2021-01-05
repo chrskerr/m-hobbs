@@ -181,6 +181,10 @@ input, select, textarea {
 			font-weight: bold;
 		}
 
+		a.-pb1 {
+			margin-bottom: 1.5rem;
+		}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: 600;
@@ -669,6 +673,7 @@ input, select, textarea {
 		.image img {
 			border-radius: 4px;
 			display: block;
+			margin-top: 0.75rem;
 		}
 
 		.image.left, .image.right {
@@ -1678,17 +1683,3 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-
-/* Leaflet Maps */
-#mapid {
-	height: calc( 100vh - 20rem );
-	max-height: 100%;
-}
-
-@media screen and (max-width: 480px) {
-
-	#mapid {
-		height: calc( 100vh - 12rem );
-	}
-
-}
